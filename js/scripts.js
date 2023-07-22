@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",()=>{let a=document.querySelectorAll(".catalog__link-page");a.forEach(function(e){e.addEventListener("click",()=>{a.forEach(e=>e.classList.remove("catalog__link-page--active")),e.classList.add("catalog__link-page--active")})})});
